@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    color: #111;
+    line-height: 1.6;
+  }
+  
+  .abt {
+    text-align: left;
+    padding: 5% 20% 3% 10%;
+    /* Adjusting left padding to match .abt-sub */
+    padding-left: 3%;
+  }
+  
+  .abt h1 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+  
+  .abt h1 span {
+    color: black;
+  }
+  
+  .image {
+    width: 5% !important;
+    height: 10% !important;
+  }
+  
+  .abt-sub {
+    font-size: 1.2rem;
+    color: #444;
+    margin: 0 auto;
+    padding-left: 2%; 
+  }
+  
+  /* Features  */
+  .feature {
+    background-color: #f3f3f3;
+    padding: 60px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+  }
+  
+  .feature-box {
+    background: #fff;
+    padding: 25px;
+    border-left: 4px solid rgb(30, 9, 123);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .feature-box h3 {
+    margin-top: 0;
+    color: #000;
+    font-size: 1.2rem;
+    
+  }
+  
+  .feature-box p {
+    color: #333;
+  }
+  
+  /* Values */
+  .values
+ {
+    padding: 5% 10%;
+    text-align: center;
+    margin-top: -5%;
+  }
+  
+  .values
+ h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .values-intro {
+    max-width: 70%;
+    margin: 0 auto 40px;
+    color: #555;
+  }
+  
+  .values-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  .value-card {
+    background: #f5f5f5;
+    padding: 30px;
+    width: 35%;       
+    min-width: 300px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  
+  .value-card h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  
+  .red-bar {
+    border-bottom: 3px solid rgb(18, 3, 61);
+    padding-bottom: 4px;
+  }
+  .team {
+    padding: 5% 10%;
+    background-color: #fff;
+    text-align: center;
+    margin-top: -10%;
+  }
+  
+  .team h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3%;
+    font-weight: 800;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4%;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f9f9f9;
+    padding: 3%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    flex: 1 1 30%;
+    min-width: 280px;
+  }
+  
+  .team-member img {
+    width: 25%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 5%;
+  }
+  
+  .member-info {
+    text-align: left;
+  }
+  
+  .member-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #111;
+  }
+  
+  .member-info .title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #555;
+    margin: 4px 0 8px;
+  }
+  
+  .member-info p {
+    font-size: 0.95rem;
+    color: #333;
+  }
+  

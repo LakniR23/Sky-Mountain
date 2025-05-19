@@ -1,0 +1,112 @@
+.container {
+    max-width: 700px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+h2 i {
+    margin-right: 10px;
+}
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #7f8c8d;
+    font-size: 14px;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.input-group input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+.input-group input[readonly] {
+    background-color: #f9f9f9;
+    cursor: not-allowed;
+}
+.input-group i {
+    margin-right: 5px;
+    color: #7f8c8d;
+    width: 16px;
+    text-align: center;
+}
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.button-group a {
+	text-decoration:none;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+}
+button i {
+    margin-right: 8px;
+}
+button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+}
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+.cancel-btn {
+    background-color: #7f8c8d;
+    color: white;
+}
+.cancel-btn:hover {
+    background-color: #6c7679;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+    appearance: none; /* removes default OS-specific dropdown styling */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%204%205'%3E%3Cpath%20fill='%23333'%20d='M2%200L0%202h4zm0%205L0%203h4z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 8px 10px;
+}
+
+select:focus {
+    border-color: #3498db;
+    outline: none;
+}
